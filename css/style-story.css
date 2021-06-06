@@ -55,8 +55,8 @@ body {
 }
 .navbar-inverse .navbar-nav li a {
     color: #1f1f1f;
-    padding: 3px 0px 3px 37px;
-    margin: 14px -27px 14px 20px;
+/*    padding: 3px 0px 3px 37px;
+    margin: 14px -27px 14px 20px;*/
 }
 
 .m-logo {
@@ -365,6 +365,25 @@ a {
     display: flex;
 }
 
+/*滑鼠事件*/
+footer a:hover{
+    text-decoration: none;
+    color: #fff5eb !important;
+}
+.shareBtn:hover{
+    box-shadow: 0px 0px 10px white;
+}
+.mouse:hover{
+    font-size: 20px;
+    color: #fff5eb !important;
+}
+#Stories a:hover{
+    text-decoration: none;
+    color: #fff5eb !important;
+}
+#Stories img:hover{
+    mix-blend-mode: luminosity;
+}
 
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px）) { 
